@@ -142,7 +142,7 @@ export default function Landing() {
       <footer style={{ borderTop: '1px solid var(--border-color)', padding: '32px 0', background: 'var(--bg-mantle)' }}>
         <div className="container flex items-center justify-between" style={{ flexWrap: 'wrap', gap: 16 }}>
           <span style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: '1.125rem' }}>
-            Predic<span className="text-gradient">tiX</span>
+            MediPred<span className="text-gradient">ict</span>
           </span>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>
             © 2025 MediPredict. For educational purposes only. Not a substitute for medical advice.
