@@ -105,7 +105,7 @@ const downloadReport = async (req, res) => {
     res.setHeader("Content-Type", "application/pdf");
     res.setHeader(
       "Content-Disposition",
-      `attachment; filename="predictix-report-${prediction._id}.pdf"`
+      `attachment; filename="medipredict-report-${prediction._id}.pdf"`
     );
     res.send(Buffer.from(pdfBytes));
   } catch (err) {

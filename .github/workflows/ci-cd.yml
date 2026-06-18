@@ -1,4 +1,4 @@
-name: PredictiX CI/CD Pipeline
+name: MediPredict CI/CD Pipeline
 
 on:
   push:

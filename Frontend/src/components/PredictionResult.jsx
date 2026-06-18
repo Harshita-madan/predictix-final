@@ -9,7 +9,7 @@ export default function PredictionResult({ result, disease, predictionId, onRese
       const url = window.URL.createObjectURL(new Blob([res.data], { type: 'application/pdf' }))
       const a = document.createElement('a')
       a.href = url
-      a.download = `predictix-${disease}-report.pdf`
+      a.download = `medipredict-${disease}-report.pdf`
       a.click()
       window.URL.revokeObjectURL(url)
     } catch (err) {

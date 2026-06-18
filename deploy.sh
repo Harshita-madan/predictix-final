@@ -1,6 +1,6 @@
 #!/bin/bash
 # ================================================================
-# PredictiX Deployment Script
+# MediPredict Deployment Script
 # Runs the complete DevOps stack locally using Docker Compose
 # ================================================================
 
@@ -8,7 +8,7 @@ set -e
 
 echo ""
 echo "╔══════════════════════════════════════════════╗"
-echo "║     PredictiX — DevOps with AI Deployment   ║"
+echo "║     MediPredict — DevOps with AI Deployment  ║"
 echo "╚══════════════════════════════════════════════╝"
 echo ""
 

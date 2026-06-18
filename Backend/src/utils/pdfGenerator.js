@@ -34,7 +34,7 @@ const generatePDFReport = async (prediction) => {
   });
 
   // Logo text
-  page.drawText("PredictiX", {
+  page.drawText("MediPredict", {
     x: 40, y: height - 52, size: 28, font: boldFont, color: rgb(1, 1, 1),
   });
   page.drawText("AI-Powered Disease Prediction Platform", {
@@ -127,7 +127,7 @@ const generatePDFReport = async (prediction) => {
   page.drawText("⚠  This report is for informational purposes only. Consult a qualified medical professional.", {
     x: 40, y: 36, size: 8, font: regularFont, color: COLORS.warning,
   });
-  page.drawText("© 2025 PredictiX. All rights reserved.", {
+  page.drawText("© 2025 MediPredict. All rights reserved.", {
     x: 40, y: 18, size: 8, font: regularFont, color: COLORS.gray,
   });
   page.drawText(`Processing Time: ${prediction.processingTime}ms`, {

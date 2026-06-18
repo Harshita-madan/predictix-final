@@ -24,7 +24,7 @@ export default function About() {
         <div className="container" style={{ textAlign: 'center' }}>
           <span className="section-tag">Unit V — DevOps with AI</span>
           <h1 style={{ fontFamily: 'Space Grotesk', fontWeight: 800, fontSize: 'clamp(2rem, 5vw, 3.5rem)', marginTop: 16, lineHeight: 1.1 }}>
-            About <span className="text-gradient">PredictiX</span>
+            About <span className="text-gradient">MediPredict</span>
           </h1>
           <p style={{ color: 'var(--text-secondary)', marginTop: 20, fontSize: '1.0625rem', maxWidth: 600, margin: '20px auto 0', lineHeight: 1.7 }}>
             A Capstone Project 5 demonstrating DevOps + AI integration through a production-grade multi-disease prediction platform with full CI/CD, containerization, and monitoring.
@@ -37,13 +37,13 @@ export default function About() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">The Project</span>
-            <h2 style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: '2rem', marginTop: 12 }}>What PredictiX Does</h2>
+            <h2 style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: '2rem', marginTop: 12 }}>What MediPredict Does</h2>
           </div>
           <div className="grid-2" style={{ gap: 24 }}>
             <div className="card">
               <h3 style={{ fontWeight: 700, marginBottom: 12 }}>🎯 Core Objective</h3>
               <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
-                PredictiX predicts four diseases — heart disease, diabetes, breast cancer, and lung cancer — using state-of-the-art machine learning algorithms. The platform demonstrates how AI models can be seamlessly integrated into a production environment with robust DevOps practices.
+                MediPredict predicts four diseases — heart disease, diabetes, breast cancer, and lung cancer — using state-of-the-art machine learning algorithms. The platform demonstrates how AI models can be seamlessly integrated into a production environment with robust DevOps practices.
               </p>
             </div>
             <div className="card">

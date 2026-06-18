@@ -30,7 +30,7 @@ export default function Navbar() {
             fontFamily: 'Space Grotesk, sans-serif',
           }}>P</div>
           <span style={{ fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700, fontSize: '1.25rem', letterSpacing: '-0.02em' }}>
-            Predic<span style={{ background: 'linear-gradient(135deg, #89b4fa, #cba6f7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>tiX</span>
+            Medi<span style={{ background: 'linear-gradient(135deg, #89b4fa, #cba6f7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Predict</span>
           </span>
         </Link>
 

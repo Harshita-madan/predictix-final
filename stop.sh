@@ -1,5 +1,5 @@
 #!/bin/bash
-# Stop all PredictiX services
+# Stop all MediPredict services
 export PATH="/opt/homebrew/bin:$PATH"
 
 pkill -f "node src/index" 2>/dev/null && echo "✓ Backend stopped" || echo "Backend was not running"

@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const logger = require("../utils/logger");
 
-const JWT_SECRET = process.env.JWT_SECRET || "predictix_dev_secret_change_me";
+const JWT_SECRET = process.env.JWT_SECRET || "medipredict_dev_secret_change_me";
 
 const generateToken = (userId) =>
   jwt.sign({ id: userId }, JWT_SECRET, { expiresIn: "7d" });

@@ -1,6 +1,6 @@
-# PredictiX - Multi-Disease Prediction System
+# MediPredict - Multi-Disease Prediction System
 
-PredictiX is a comprehensive multi-disease prediction platform designed to predict heart disease, diabetes, breast cancer, and lung cancer. Built using the MERN stack and integrated with machine learning models, PredictiX offers an intuitive interface for users to input data and receive accurate health predictions, enhancing the diagnostic experience.
+MediPredict is a comprehensive multi-disease prediction platform designed to predict heart disease, diabetes, breast cancer, and lung cancer. Built using the MERN stack and integrated with machine learning models, MediPredict offers an intuitive interface for users to input data and receive accurate health predictions, enhancing the diagnostic experience.
 
 ## Table of Contents
 - [Features](#features)
@@ -74,7 +74,7 @@ The frontend design has been created using [Figma](https://www.figma.com/design/
 ## File Structure
 
 ```bash
-PredictiX/
+MediPredict/
 ├── Backend/                # Backend code
 │   ├── src/                # Source code
 │   │   ├── controllers/    # Controller files
@@ -90,7 +90,7 @@ PredictiX/
 │   └── uploads/            # Uploaded files (prescriptions, etc.)
 ├── Frontend/               # Frontend code
 │   ├── public/             # Public assets
-│   │   └── PredictiXLogo.png # Logo file
+│   │   └── MediPredictLogo.png # Logo file
 │   └── src/                # Source code
 │       ├── assets/         # Static assets
 │       ├── components/     # React components
@@ -127,7 +127,7 @@ PredictiX/
 ## Future Enhancements
 
 - **OCR Integration:** Plan to replace regex with Optical Character Recognition (OCR) for extracting prescription data more efficiently.
-- **Mobile Application:** Expand PredictiX into a cross-platform mobile app using React Native.
+- **Mobile Application:** Expand MediPredict into a cross-platform mobile app using React Native.
 - **Additional Predictors:** Add more disease predictors to extend the functionality.
 - **Enhanced Image Processing:** Use more advanced techniques for image analysis, improving accuracy for cancer detection.
 - **Integration with Wearables:** Sync health data from wearables for real-time predictions.

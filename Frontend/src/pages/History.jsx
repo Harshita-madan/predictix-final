@@ -41,7 +41,7 @@ export default function History() {
       const res = await api.get(`/predictions/report/${predId}`, { responseType: 'blob' })
       const url = window.URL.createObjectURL(new Blob([res.data], { type: 'application/pdf' }))
       const a = document.createElement('a')
-      a.href = url; a.download = `predictix-${disease}-${predId}.pdf`; a.click()
+      a.href = url; a.download = `medipredict-${disease}-${predId}.pdf`; a.click()
       window.URL.revokeObjectURL(url)
     } catch {
       toast.error('Failed to download report')

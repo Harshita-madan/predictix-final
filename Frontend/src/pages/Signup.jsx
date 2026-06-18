@@ -33,7 +33,7 @@ export default function Signup() {
     try {
       const { data } = await api.post('/auth/signup', { fullName: form.fullName, email: form.email, password: form.password })
       login(data.token, data.user)
-      toast.success('Account created! Welcome to PredictiX 🎉')
+      toast.success('Account created! Welcome to MediPredict 🎉')
       navigate('/dashboard')
     } catch (err) {
       toast.error(err.response?.data?.message || 'Signup failed')
@@ -54,7 +54,7 @@ export default function Signup() {
           <div style={{ textAlign: 'center', marginBottom: 32 }}>
             <div style={{ width: 56, height: 56, borderRadius: 14, background: 'linear-gradient(135deg, #a6e3a1, #89b4fa)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.75rem', margin: '0 auto 16px' }}>🧬</div>
             <h1 style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: '1.75rem' }}>Create Account</h1>
-            <p style={{ color: 'var(--text-secondary)', marginTop: 8 }}>Join PredictiX for free disease predictions</p>
+            <p style={{ color: 'var(--text-secondary)', marginTop: 8 }}>Join MediPredict for free disease predictions</p>
           </div>
 
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>

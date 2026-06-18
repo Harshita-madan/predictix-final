@@ -15,15 +15,6 @@ const STATS = [
   { value: 'PDF', label: 'Report Export', icon: '📄' },
 ]
 
-const FEATURES = [
-  { icon: '🔐', title: 'Secure Auth', desc: 'JWT-protected routes with encrypted passwords' },
-  { icon: '🐍', title: 'Child Process ML', desc: 'Python models invoked via Node.js child processes' },
-  { icon: '📊', title: 'Prometheus Metrics', desc: 'Real-time monitoring of prediction counts & latency' },
-  { icon: '🐳', title: 'Docker Ready', desc: 'Full containerization with Docker Compose' },
-  { icon: '🔄', title: 'CI/CD Pipeline', desc: 'Automated testing and deployment via GitHub Actions' },
-  { icon: '📱', title: 'PDF Reports', desc: 'Download detailed prediction reports as PDF' },
-]
-
 export default function Landing() {
   const { isAuthenticated } = useAuth()
 
@@ -60,7 +51,7 @@ export default function Landing() {
               lineHeight: 1.7,
               animationDelay: '0.2s',
             }}>
-              PredictiX leverages state-of-the-art ML models — Logistic Regression, SVM, CNN, and InceptionResNetV2 —
+              MediPredict leverages state-of-the-art ML models — Logistic Regression, SVM, CNN, and InceptionResNetV2 —
               to predict heart disease, diabetes, breast and lung cancer with clinical-grade accuracy.
             </p>
             <div className="animate-fade-in flex" style={{ gap: 16, justifyContent: 'center', marginTop: 36, animationDelay: '0.3s' }}>
@@ -124,27 +115,6 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* ── Features ─────────────────────────────────────────── */}
-      <section className="section" style={{ background: 'var(--bg-mantle)' }}>
-        <div className="container">
-          <div className="section-header">
-            <span className="section-tag">DevOps + AI</span>
-            <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: 'clamp(1.75rem, 4vw, 2.5rem)', fontWeight: 700, marginTop: 12 }}>
-              Production-Grade Infrastructure
-            </h2>
-          </div>
-          <div className="grid-3" style={{ gap: 20 }}>
-            {FEATURES.map((f, i) => (
-              <div key={i} className="card animate-fade-in" style={{ animationDelay: `${i * 0.08}s` }}>
-                <div style={{ fontSize: '2rem', marginBottom: 16 }}>{f.icon}</div>
-                <h3 style={{ fontWeight: 700, marginBottom: 8 }}>{f.title}</h3>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.5 }}>{f.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── CTA ──────────────────────────────────────────────── */}
       <section className="section">
         <div className="container" style={{ textAlign: 'center' }}>
@@ -175,7 +145,7 @@ export default function Landing() {
             Predic<span className="text-gradient">tiX</span>
           </span>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>
-            © 2025 PredictiX. For educational purposes only. Not a substitute for medical advice.
+            © 2025 MediPredict. For educational purposes only. Not a substitute for medical advice.
           </p>
           <div style={{ display: 'flex', gap: 16 }}>
             <Link to="/about" style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>About</Link>

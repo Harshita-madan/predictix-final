@@ -1,6 +1,6 @@
 #!/bin/bash
 # ================================================================
-# PredictiX Local Deployment (No Docker Required)
+# MediPredict Local Deployment (No Docker Required)
 # ================================================================
 
 set -e
@@ -12,7 +12,7 @@ error()   { echo -e "${RED}[✗]${NC} $1"; exit 1; }
 
 echo ""
 echo "╔══════════════════════════════════════════════╗"
-echo "║   PredictiX — Local Deployment (No Docker)  ║"
+echo "║   MediPredict — Local Deployment (No Docker) ║"
 echo "╚══════════════════════════════════════════════╝"
 echo ""
 
@@ -62,7 +62,7 @@ success "Frontend running (PID: $FRONTEND_PID)"
 
 echo ""
 echo "╔══════════════════════════════════════════════╗"
-echo "║         🚀 PredictiX is LIVE!               ║"
+echo "║        🚀 MediPredict is LIVE!               ║"
 echo "╚══════════════════════════════════════════════╝"
 echo ""
 success "App:        http://localhost:5173"
