@@ -1,0 +1,18 @@
+.env
+# *.pkl files are committed so Render/cloud can use pre-trained models
+
+*.keras
+*.h5
+node_modules/
+Backend/uploads/
+Backend/logs/
+dist/
+build/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+mongo_data/
+prometheus_data/
+grafana_data/
+vite_temp/
